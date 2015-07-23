@@ -1,0 +1,556 @@
+﻿/* --------------- FrontPage --------------- */
+body
+{
+  width: 1200px;
+  margin: auto;
+  padding: 0;
+  background-color: #e5e5e5;
+}
+.fp-top
+{
+  height: 70px;
+  width: 100%;
+  margin: 0;
+}
+.logo, .search-bar, .account-bar
+{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.logo
+{
+  width: 320px;
+  height: 70px;
+  margin-right: 70px;
+}
+.search-bar
+{
+  width: 600px;
+  height: 70px;
+}
+.account-bar
+{
+  width: 210px;
+  height: 70px;
+  line-height: 70px;
+}
+.logo-img
+{
+  margin: 0;
+  padding: 0;
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+.logo-text
+{
+  width: 250px;
+  height: 70px;
+  font: italic 50px bold black;
+  font-family: Times New Roman;
+  float: left;
+  text-align: center;
+  line-height: 70px;
+  text-decoration: none;
+}
+.logo a:link, .logo a:hover, .logo a:active, .logo a:visited
+{
+  color: #000;
+}
+.txt-search
+{
+  height: 24px;
+  width: 496px;
+  margin-top: 10px;
+  float: left;
+}
+.btn-search
+{
+  height: 30px;
+  width: 60px;
+  margin-top: 10px;
+  float: left;
+}
+.cate
+{
+  height: 30px;
+  width: 500px;
+  line-height: 30px;
+  float: left;
+  text-align: center;
+}
+/*******/
+
+.nav-bar
+{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.nav-list
+{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  width: 130px;
+  line-height: 50px;
+  text-align: right;
+  font-size: 18px;
+  float: left;
+  padding-right: 10px;
+}
+.nav-bar a:hover
+{
+  background: #f5f5f5;
+}
+
+
+
+/* --------------- Master --------------- */
+#front-page
+{
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr
+{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.menu-border1
+{
+  height: 12px;
+  background-color: #CDE0F2;
+}
+
+.menu-border2
+{
+  height: 3px;
+  background-color: #1E85D5;
+}
+
+.menu-border3
+{
+  height: 15px;
+  background-color: #EDFBFF;
+}
+
+.tab-menu-list
+{
+  width: 100%;
+  height: 40px;
+}
+
+table.tab-menu-list td
+{
+  text-align: right;
+  border-right: 1px solid grey;
+}
+
+#show-time
+{
+  text-align: left;
+  padding-left: 10px;
+  border-right: none;
+}
+
+table.tab-menu-list td p
+{
+  margin: 0;
+  padding: 0;
+  color: #3c3c3c;
+  font-size: 60%;
+}
+
+/* --------------- Default --------------- */
+#default-header
+{
+  height: 60px;
+  line-height: 30px;
+  font-size: 1.2em;
+}
+
+.style2
+{
+  width: 100%;
+  border: 1px solid #e3e3e3;
+}
+
+table.style2 tr
+{
+  height: 35px;
+}
+
+.style3
+{
+  height: 22px;
+  background-color: #F1E2C7;
+}
+
+#left
+{
+  width: 380px;
+  float: left;
+  color: Black;
+}
+
+#right
+{
+  width: 800px;
+  float: left;
+  margin-left: 10px;
+}
+
+.diff-line
+{
+  background-color: #E3E3E3;
+  border-color: #E3E3E3;
+}
+
+#tab-hotclick, #tab-hotsale
+{
+  margin-bottom: 20px;
+}
+
+.theme-content-time
+{
+  background-color: #ADFF2F;
+  text-align: center;
+  color: White;
+  font-weight: bold;
+  font-size: large;
+}
+
+.news-recom
+{
+  margin-bottom: 20px;
+}
+
+.title
+{
+  height: 30px;
+  margin-bottom: 10px;
+  font: bold 30px/30px Times New Roman; /*background-color: White;*/
+}
+
+/*****
+*/
+.display-inline
+{
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+/*****************************/
+.card
+{
+  width: 210px;
+  height: 300px;
+  background-color: White;
+  border: 0;
+}
+img:hover
+{
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* 针对 IE8 以及更早的版本 */
+}
+.card-bottom
+{
+  line-height: 25px;
+  font-size: 18px;
+}
+.card-h
+{
+  width: 380px;
+  height: 100px;
+  padding-top: 5px;
+  font: 18px/25px Times New Roman;
+  background-color: White;
+  border: 0;
+}
+.more
+{
+  width: 80px;
+  height: 30px;
+  float: right;
+  font: 18px/30px Times New Roman;
+  text-align: center;
+  background-color: #C1D739;
+  color: #fff;
+  text-decoration: none;
+}
+.more a:link, .more a:hover, .more a:active, .more a:visited
+{
+  color: #fff;
+  text-decoration: none;
+}
+.card-h img
+{
+  float: left;
+  margin-right: 20px;
+}
+.data
+{
+  line-height: 30px;
+}
+
+.tab-hotclick, .tab-hotsale
+{
+  margin-top: 10px;
+}
+.normalfont
+{
+  color: #000;
+  text-decoration: none;
+}
+
+
+/******************************************/
+a:link, a:hover, a:active, a:visited
+{
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.card a:link, .card a:hover, .card a:active, .card a:visited
+{
+}
+.card:hover, .card-h:hover
+{
+  background-color: #f5f5f5;
+}
+#tab-news
+{
+  margin-bottom: 30px;
+}
+.testfive
+{
+  width: 230px;
+}
+/*****************/
+.detail
+{
+  font: 20px/30px Times New Roman;
+  vertical-align: top;
+}
+.detail2
+{
+  margin-top: 5px;
+  font: 20px/30px Times New Roman;
+  vertical-align: top;
+  background-color: #f5f5f5;
+}
+.detail2 img
+{
+  max-height: 500px;
+  max-width: 500px;
+}
+
+/****************** News ***************************/
+.news-main
+{
+  width: 800px;
+  margin: auto;
+  background-color: #f5f5f5;
+}
+
+.news-name, .news-time, .news-memo
+{
+  display: block;
+}
+.news-name
+{
+  padding-left: 10px;
+  font: bold 40px/70px Times New Roman;
+}
+.news-time
+{
+  padding-left: 20px;
+  margin-bottom: 40px;
+  font: italic 18px/20px Times New Roman;
+}
+.news-memo
+{
+  font: 18px/25px Times New Roman;
+}
+.prenext
+{
+  margin-top: 20px;
+  color: White;
+}
+.more:hover
+{
+  font-weight: bold;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* 针对 IE8 以及更早的版本 */
+}
+#time
+{
+  font: 1.2em/50px Times New Roman;
+  padding-left: 5px;
+}
+/********************** ShoppingCart ************************/
+.cartitem
+{
+  width: 1200px;
+  height: 110px;
+  margin-top: 5px;
+  background-color: White;
+  vertical-align: middle;
+  font: 20px/25px Times New Roman;
+}
+.cartckb
+{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 50px;
+  width: 30px;
+  height: 110px;
+
+}
+.cartmodel
+{
+  display: inline-block;
+  width: 300px;
+  height:110px;
+  vertical-align:middle;
+  
+}
+
+.cartcost
+{
+  width: 100px;
+  height:110px;
+  vertical-align:middle;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right:50px;
+}
+.cartquantity, .cartaction
+{
+  height:110px;
+  vertical-align:middle;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right:50px;
+}
+
+.cartquantity a
+{
+  border: 1px solid grey;
+  padding-left: 5px;
+  padding-right:5px;
+  text-align:center;
+}
+.carttb
+{
+  height: 30px;
+  width:60px;
+}
+.cartaction
+{
+  
+}
+.cartallcost
+{
+  height: 60px;
+  width: 1200px;
+  background-color: White;
+  vertical-align:middle;
+}
+
+.cartallcost div,.cartallcost p,.subtotal
+{
+  display: inline-block;
+}
+
+.cartselectall
+{
+  float:left;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.cartcount
+{
+  float:right;
+  margin-right: 80px;
+}
+.cartdone
+{
+  width: 80px;
+  height: 30px;
+  
+  font: 18px/30px Times New Roman;
+  text-align: center;
+  background-color: #C1D739;
+  color: #fff;
+  text-decoration: none;
+}
+.cartdone a:link, .cartdone a:hover, .cartdone a:active, .cartdone a:visited
+{
+  color: #fff;
+  text-decoration: none;
+}
+.cartdone a:hover
+{
+  font-weight: bold;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* 针对 IE8 以及更早的版本 */
+}
+.cartprecost
+{
+  font: 22px/25px Times New Roman;
+}
+
+.carttitle
+{
+  height: 40px;
+  width: 1200px;
+  background-color: White;
+}
+.carttitle div
+{
+  margin: 0;
+  display: inline-block;
+  font: 22px/40px Times New Roman;
+  text-align: center;
+}
+.ct1
+{
+  margin-left: 100px;
+  width: 400px;
+}
+.ct2,.ct3,.ct4
+{
+  width:200px;
+}
+.ct5
+{
+  margin-left: 100px;
+  width: 500px;
+}
+.ct6,.ct7,.ct8
+{
+  width:155px;
+}
+.cartmemo
+{
+  width: 1200px;
+  height: 120px;
+  background-color: White;
+  vertical-align: top;
+}
+.tamemo
+{
+  width: 600px;
+  height: 100%;
+}

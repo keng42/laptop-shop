@@ -1,0 +1,74 @@
+﻿/* --------------- adminmain --------------- */
+body 
+{
+    background-color: #799AE1;
+}
+
+a 
+{
+    color: Black;
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    margin:0;
+    padding: 0px 0px 0px 20px;
+}
+
+.menu-block
+{
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin: 0px 0px 20px 0px;
+    padding:0;
+    background-color: #D6DFF7;
+    border-radius: 0.5em;
+}
+
+.menu-top-title
+{
+    background-color: #114FB7;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: White;
+    text-align: right;
+    margin: 0px;
+}
+
+.menu-title
+{
+    font-size: 1.5em;
+    font-weight: bolder;
+    background-color: White;
+    margin:0;
+    padding: 0px 0px 0px 10px;
+}
+
+/* --------------- adminindex --------------- */
+.tab-sys-summary 
+{
+    width: 100%;
+    background-color: #D6DFF7;
+    line-height: 30px;
+    border-collapse:collapse;
+}
+
+.tab-sys-1stline
+{
+    background-color: #E9967A;
+    color: White;
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+}
+
+.tab-sys-left
+{
+    width: 30%;
+}
+
+td
+{
+    border: 3.5px solid #FF9700;
+}

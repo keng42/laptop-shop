@@ -1,0 +1,37 @@
+#p_login {
+    height: 100px;
+    line-height: 100px;
+    background-color: #D3D3D3;
+    margin: 0;
+}
+
+#div_center {
+    height: 80px;
+    background-color: #F5F5F5;
+    line-height: 40px;
+}
+
+#div_login_tips {
+    line-height: 20px;
+}
+#div_login_tips p {
+    margin: 0;
+}
+
+.text_shadow {
+    text-shadow: 3px 3px 1px black;
+}
+
+.star {
+    margin: 0;
+    padding: 0;
+    color: red;
+    display: inline;
+}
+
+#btn_login {
+}
+
+.text_style {
+    margin-right: 40px;
+}

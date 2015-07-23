@@ -1,0 +1,10 @@
+Delete from Products;
+Delete from Categories;
+DBCC CHECKIDENT (Categories, RESEED, 0);
+insert into Categories values('Samsung','三星电子');
+insert into Categories values('Toshiba','东芝');
+insert into Categories values('HP','惠普');
+insert into Categories values('Acer','宏基');
+insert into Categories values('Google','谷歌');
+insert into Categories values('Apple','苹果');
+insert into Categories values('Alienware','外星人');

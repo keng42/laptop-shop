@@ -1,0 +1,51 @@
+﻿/* --------------- Products --------------- */
+body 
+{
+    background-color: #799AE1;
+}
+
+.products-main
+{
+    background-color: #D6DFF7;
+    width: 100%;
+}
+
+.products-top
+{
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.products-btm
+{
+    width: 100%;
+}
+
+.gv-header
+{
+    background-color: #990000;
+    color: White;
+    line-height: 30px;
+}
+/***************************** OrderNo *************/
+.ontitle
+{
+  height:40px;
+  width: 100%;
+  font: 30px/40px Times New Roman;
+  background-color: orange;
+}
+.onsearchbar
+{
+  height:40px;
+  width: 100%;
+  font: 20px/40px Times New Roman;
+}
+.oicost
+{
+  height:30px;
+  width: 100%;
+  font: 22px/30px Times New Roman;
+  background-color: #e5e5e5;
+}

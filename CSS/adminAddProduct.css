@@ -1,0 +1,56 @@
+body {
+    background-color: #7699DB;
+}
+
+#main {
+    background-color: #D7DEF8;
+    border: 2px solid white;
+}
+
+#p_add_product {
+    background-color: orange;
+    margin: 0;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+tr {
+    border-bottom: 1px solid white;
+}
+
+td {
+    border-right: 1px solid white;
+}
+
+td p {
+    margin: 1px 1px 1px 1px;
+    width: 55%;
+}
+
+td input {
+    width: 200px;
+}
+
+#textarea_detail {
+    width: 400px;
+    height: 100px;
+}
+
+.button {
+    width: 90px;
+}
+
+select 
+{
+    width:200px;
+}
+
+
+

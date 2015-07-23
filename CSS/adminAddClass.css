@@ -1,0 +1,42 @@
+﻿body
+{
+    background-color: #7699DB;
+}
+table
+{
+    background-color: #D7DEF8;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+tr
+{
+    border-bottom: 1px solid white;
+}
+td
+{
+    border-right: 1px solid white;
+}
+.style1
+{
+    width: 100%;
+    border: 1px solid black;
+}
+#p_add_class
+{
+    background-color: orange;
+    margin: 0;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+}
+#TextArea1
+{
+    height: 155px;
+    width: 200px;
+}
+.style2
+{
+    width: 50%;
+}

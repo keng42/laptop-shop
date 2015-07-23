@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FrontPage.master.cs" Inherits="FrontPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <link rel="stylesheet" type="text/css" href="CSS/FrontPage.css" />
+  <script type="text/javascript" src="JS/clock.js"></script>
+  <title></title>
+  <asp:ContentPlaceHolder ID="head" runat="server">
+  </asp:ContentPlaceHolder>
+</head>
+<body>
+  <form id="form1" runat="server">
+  <div>
+    <div class="fp-top">
+      <div class="logo">
+        <a href="Default.aspx">
+          <img src="Images/logo.ico" alt="logo" class="logo-img" />
+          <span class="logo-text">Computer</span> </a>
+      </div>
+      <div class="search-bar">
+        <input type="text" class="txt-search" id="TxtSearch" runat="server" />
+        <input type="submit" class="btn-search" id="BtnSearch" value="GO" onserverclick="gosearch"
+          runat="server" />
+        <div class="quick-lable">
+          <asp:Label ID="LabCategories" runat="server"></asp:Label></div>
+      </div>
+      <div class="account-bar">
+        <asp:Label ID="UserBar" runat="server"></asp:Label><asp:Button ID="BtnLogout" runat="server"
+          OnClick="Logout" Text="注销" />
+      </div>
+    </div>
+    <div class="nav-bar">
+      <a href="Default.aspx" class="nav-list">商城首页</a> <a href="ProductsTop.aspx?Type=Clicks"
+        class="nav-list">热门商品</a> <a href="ProductsTop.aspx?Type=Sales" class="nav-list">热销商品</a>
+      <a href="ProductsTop.aspx?Type=UnitCost/Discount" class="nav-list">特价商品</a> <a href="Member.aspx"
+        class="nav-list">会员中心</a> <a href="ShoppingCart.aspx" class="nav-list">购物清单</a> <a href="Default.aspx"
+          class="nav-list">导购小姐</a><span id="time">现在是... </span>
+    </div>
+  </div>
+  <div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+  </div>
+  </form>
+</body>
+</html>
